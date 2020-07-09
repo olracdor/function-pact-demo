@@ -1,0 +1,17 @@
+{
+  "specversion": "1.0",
+  "type": "pricingevent",
+  "source": "retail-event-publisher",
+  "id": "9aeb0fdf-c01e-0131-0922-9eb54906e209",
+  "time": "2020-03-05T10:10:15.458Z",
+  "subject": "update price",
+  "data": {
+    "domain": "retail",
+    "clientRequestId": "4c5dd7fb-2c48-4a27-bb30-5361b5de920a",
+    "price": 300,
+    "stock": {
+      "batchId": "681fe319-3006-00a8-0022-9e7cde000000"
+    }
+  }
+}
+

@@ -1,0 +1,33 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "noLib": false,
+    "noImplicitReturns": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "moduleResolution": "node",
+    "noEmitOnError": true,
+    "emitDecoratorMetadata": true,
+    "declaration": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es6",
+    "outDir": "dist",
+    "rootDir": ".",
+    "lib": [
+      "es2016",
+      "dom",
+      "esnext.asynciterable"
+    ]
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "./node_modules/**"
+  ]
+}
